@@ -36,7 +36,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/thirumala-srinivas-babu-likki-4202533a7?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="LinkedIn"
@@ -46,7 +46,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.instagram.com/detective_1_s?igsh=YWs5aTYzbG5tcnRi"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
