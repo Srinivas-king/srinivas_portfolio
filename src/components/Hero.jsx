@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
-import heroImage from '../assets/images/hero/it\'s Me.png';
+import heroImage from '../assets/images/hero/portimg.jpeg';
 
 const Hero = () => {
   const [text, setText] = useState('');

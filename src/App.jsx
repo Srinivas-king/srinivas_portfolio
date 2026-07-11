@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 import Cursor from './components/Cursor';
 import LoadingScreen from './components/LoadingScreen';
 import Footer from "./components/footer";
-import heroImage from './assets/images/hero/it\'s Me.png';
+import heroImage from './assets/images/hero/portimg.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -290,7 +290,7 @@ function App() {
           <img
             src={heroImage}
             alt="Likki Thirumala Srinivas Babu"
-            className="w-full h-full object-cover mix-blend-lighten"
+            className="w-full h-full object-cover object-top mix-blend-lighten"
           />
         </div>
       </div>
@@ -305,7 +305,6 @@ function App() {
           <TechStack />
           <Contact />
           <Footer />
-          <heroImage />
         </main>
       </div>
     </div>
