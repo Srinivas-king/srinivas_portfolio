@@ -15,7 +15,8 @@ const Contact = () => {
     setIsSubmitting(true);
     setStatus({ type: '', message: '' });
 
-    const apiUrl = 'http://localhost:7000/api/contact';
+    const API_URL = import.meta.env.VITE_API_URL;
+    const apiUrl = `${API_URL}/api/contact`;
     console.log('📤 Submitting Contact Form...');
     console.log('📍 API URL:', apiUrl);
     console.log('📦 Form Data:', formData);
